@@ -23,15 +23,15 @@ matplotlib==3.0.3
 mccabe==0.6.1
 more-itertools==7.0.0
 netaddr==0.7.19
-numpy==1.16.2
+numpy==1.22.2
 pipdate==0.3.2
 pluggy==0.9.0
 pprintpp==0.4.0
-py==1.8.0
+py==1.10.0
 pycountry==18.12.8
 pycountry-convert==0.7.2
 pyfiglet==0.8.post1
-pylint==2.3.1
+pylint==2.7.0
 pyparsing==2.4.0
 pytest==4.4.1
 pytest-cov==2.6.1
@@ -49,3 +49,5 @@ urllib3==1.24.2
 Werkzeug==0.15.5
 wrapt==1.11.1
 XlsxWriter==1.1.6
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
